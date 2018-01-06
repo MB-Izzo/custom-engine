@@ -5,6 +5,7 @@
 #include "ResourceManager.hpp"
 #include "TextureManager.hpp"
 
+// Resource manager test.
 
 int main()
 {
@@ -14,8 +15,6 @@ int main()
     
     sf::Sprite sprite;
     sprite.setTexture(*(txtman.GetResource("img")));
-    
-    
     
     sf::RenderWindow window(sf::VideoMode(1080, 720), "SFML works!");
     
