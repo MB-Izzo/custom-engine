@@ -8,7 +8,7 @@
 class TextureManager : public ResourceManager<TextureManager, sf::Texture>
 {
 public:
-    TextureManager(): ResourceManager("textures.txt") {} // copy constructor.
+    TextureManager(): ResourceManager("Textures.txt") {} // copy constructor.
     sf::Texture* Load(const std::string& file_name)
     {
         sf::Texture* texture = new sf::Texture(); // allocate mem on the heap.
